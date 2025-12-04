@@ -1,0 +1,41 @@
+onlineshopping_app/
+├─ lib/
+│  ├─ main.dart                      # Entry point of the app
+│  ├─ routes/
+│  │    └─ app_routes.dart           # All app routes in one place
+│  │
+│  ├─ screens/
+│  │    ├─ splash/
+│  │    │    └─ splash_screen.dart   # Splash screen
+│  │    │
+│  │    ├─ auth/
+│  │    │    └─ login_screen.dart    # Login Screen
+│  │    │
+│  │    ├─ home/
+│  │    │    └─ home_screen.dart     # Home Screen
+│  │    │
+│  │    ├─ product/
+│  │    │    └─ product_screen.dart  # Product list screen
+│  │    │
+│  │    ├─ cart/
+│  │    │    └─ cart_screen.dart     # Cart screen
+│  │
+│  ├─ widgets/
+│  │    └─ custom_button.dart        # Reusable widgets
+│  │
+│  ├─ models/
+│  │    └─ product_model.dart        # Product model class
+│  │
+│  ├─ services/
+│  │    └─ api_service.dart          # API services (future use)
+│  │
+│  ├─ utils/
+│  │    ├─ app_colors.dart
+│  │    └─ app_text_styles.dart
+│  │
+│  └─ assets/
+│       ├─ images/
+│       └─ icons/
+│
+├─ pubspec.yaml                      # App dependencies & assets
+└─ README.md
